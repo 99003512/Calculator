@@ -34,11 +34,11 @@ void test_leapyear_2(void){
 TEST_ASSERT_EQUAL(0,leapyear(2021));
 }
 void test_prime_1(void){
-TEST_ASSERT_EQUAL(1,prime(5));
+TEST_ASSERT_EQUAL(-1,prime(5));
 }
 
 void test_prime_2(void){
-TEST_ASSERT_EQUAL(-1,prime(6));
+TEST_ASSERT_EQUAL(1,prime(6));
 }
 
 void test_average(void){
